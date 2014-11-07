@@ -25,10 +25,10 @@
   "author": "Evan Lucas <evan@btc.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GAWMiners/verigy"
+    "url": "https://github.com/evanlucas/verigy"
   },
-  "homepage": "https://github.com/GAWMiners/verigy",
+  "homepage": "https://github.com/evanlucas/verigy",
   "bugs": {
-    "url": "https://github.com/GAWMiners/verigy/issues"
+    "url": "https://github.com/evanlucas/verigy/issues"
   }
 }
