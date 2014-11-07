@@ -1,0 +1,4 @@
+verigy - strip out characters from gmail accounts
+
+  usage: verigy [-h, -H, --help]
+         verigy <email>
