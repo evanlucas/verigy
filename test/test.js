@@ -8,10 +8,16 @@ describe('verigy', function() {
     o.should.equal(email)
   })
 
-  it('should strip out periods', function() {
+  it('should strip out periods for gmail', function() {
     var email = 'evan.lucas@gmail.com'
     var o = verigy(email)
     o.should.equal('evanlucas@gmail.com')
+  })
+
+  it('should not strip out periods for non-gmail', function() {
+    var email = 'evan.lucas@ymail.com'
+    var o = verigy(email)
+    o.should.equal('evan.lucas@ymail.com')
   })
 
   it('should strip out correct username', function() {
