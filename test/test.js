@@ -8,6 +8,11 @@ describe('verigy', function() {
     o.should.equal(email)
   })
 
+  it('should return null if email is not a string', function() {
+    var o = verigy({ name: 'evan' })
+    should.not.exist(o)
+  })
+
   it('should strip out periods for gmail', function() {
     var email = 'evan.lucas@gmail.com'
     var o = verigy(email)
