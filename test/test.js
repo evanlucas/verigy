@@ -41,4 +41,9 @@ describe('verigy', function() {
     var o = verigy('evanlucas')
     should.not.exist(o)
   })
+
+  it('should return null if invalid domain', function() {
+    var o = verigy('evanlucas@gmailcom')
+    should.not.exist(o)
+  })
 })
