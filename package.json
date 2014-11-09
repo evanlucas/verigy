@@ -1,6 +1,6 @@
 {
   "name": "verigy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strip invalid characters from email addresses",
   "main": "index.js",
   "dependencies": {},
