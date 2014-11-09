@@ -48,6 +48,12 @@ describe('verigy', function() {
     should.not.exist(o)
   })
 
+  it('should use username before - for yahoo.com', function() {
+    var email = 'evanlucas-123@yahoo.com'
+    var o = verigy(email)
+    o.should.equal('evanlucas@yahoo.com')
+  })
+
   it('should return null if no @', function() {
     var o = verigy('evanlucas')
     should.not.exist(o)
